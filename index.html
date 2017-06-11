@@ -1,0 +1,146 @@
+<!DOCTYPE htm>
+<html>
+<head>
+	<title>Tri-City Open</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="try.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<div class="container-fluid" id="main">
+	
+	<video autoplay loop id="video-background" muted plays-inline>
+	
+  <source src="./images/black.mp4" type="video/mp4">
+</video>
+
+	<img class="img-responsive" src="./images/Logo.svg" alt="logo" width="360" style="margin:auto; margin-top: 60px">
+	<h1 style="text-align: center; color: white; text-transform: uppercase; font-weight: b; text-shadow: 2px 2px 2px #000000;">Your Premier High school <br>Esports League</h1>
+<h1 style="text-align: center; color: white; text-transform: uppercase; font-size: 20px; font-weight: b; text-shadow: 2px 2px 2px #000000;">Teams Assemble:</h1>	
+	<p id="demo" style="color: white; text-align:center; font-size: 40px; margin-top: 10px; text-shadow: 2px 2px 2px #000000;"></p>
+	</div>
+	<!-- Display the countdown timer in an element -->
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 6, 2017 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML =  days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+	<div class="container-fluid"id="welcome" >
+		<div class="row" >
+			<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					<div id="welcomeSpace">
+					<h1>WELCOME TO THE LEAGUE</h1><br>
+					<p>The Tri-City Open is on a mission to provide a 
+					professional and competitive environment for 
+					video game enthusiasts enrolled in high school.<br><br>
+
+					The millions of League of Legends, Counter-Strike: 
+					Global Offensive, and Dota 2 players deserve an 
+					esports program dedicated to highlighting the best 
+					of individuals and team play. This tournament 
+					invites <span>everyone</span> to compete and represent their 
+					schools. In the end, only one school will remain
+					victorious</p>
+					</div>
+				</div>
+				
+
+				<div class="col-sm-6">
+					<div id="medals"></div>
+				</div>
+
+				</div>
+	</div>
+	
+	<div class="container-fluid " id="timeline">
+		<div class="row" >
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					<div>
+					<h1 style="color: white; margin:10% 0% 10% 0%;">YOUR JOURNEY BEGINS</h1>
+					</div>
+				</div>	
+		</div>
+		<div class="row" >
+			<div class="col-sm-12 " >
+			<img class="img-responsive"  src="./images/timeline.png" alt="timeline" width="75%" style="margin:auto; margin-bottom:110px;">
+
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="container-fluid"id="how" >
+		<div class="row slideanim" >
+			<div class="col-lg-2">
+				</div>
+				<div class="col-lg-4">
+					<div id="welcomeSpace">
+					<h1>HOW IT WORKS</h1><br>
+					<p>Unlike ordinary esports leagues, the Tri City Open 
+						invites <span>everyone</span> to participate. Schools will be
+						represented by multiple teams and each team 
+						will have an opportunity to earn points towards 
+						their school.<br><br>
+
+										An established points system will reward points 
+					based on match results, as well as crowd pleasing 
+					moments throughout the games. The school with
+					 the most points at the end of the season will 
+					be crowned the Tri-City Open Champions.</p>
+					</div>
+				</div>
+				
+
+				<div class="col-lg-5">
+					<div id="teams"></div>
+				</div>
+
+				</div>
+	</div>
+	
+	<footer class="container-fluid text-center" style="background-color: black;">
+  <a href="#main" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up" style="color: white;"></span>
+  </a>
+  <p style="color: white;">More Information Coming Soon</p> 
+</footer>
+	
+</body>
+</html>

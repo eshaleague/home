@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+
+
+
+p{
+	font-size: 20px;
+	color: #0A1028;
+	line-height: 40px;
+
+}
+
+h1{
+	font-size: 40px;
+	font-weight: lighter;
+	color: #0A1028;
+}
+
+#main{
+	/*background-image: url("https://media.giphy.com/media/NYMcjHuoyC2kM/giphy.gif");*/
+	height: 750px;
+	background-size: cover;
+	display: block;
+	background-attachment:fixed;
+}
+
+#filter{
+	background-color: black;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.mainLogo{
+	background-image: url(./images/Logo.svg);
+	height: 60%;
+	width: 60%;
+	background-size: cover;
+	margin: auto;
+	margin-top: 65px;
+	position: relative;
+	
+}
+
+#welcome{
+	overflow:auto;
+	background-image: url('./images/dota.png');
+	background-size: cover;
+	background-position: center center;
+	
+	
+}
+
+
+#how{
+	overflow:auto;
+	background-image: url('./images/league.png');
+	background-size: cover;
+	background-position: center center;
+	
+	
+}
+
+#welcomeSpace{
+	margin: 10% 0% 20% 0%;
+}
+#medals{
+	background-image: url('./images/medals.png');
+	height: 550px;
+	width: 100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
+
+#teams{
+	background-image: url('./images/teams.png');
+	height: 550px;
+	width: 100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
+
+#timeline{
+	overflow:auto;
+	background-image: url('./images/timelineBackground.png');
+	background-size: cover;
+	background-position: 100% 100%;
+	
+}
+
+#video-background{
+	 position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+span{
+	color: #E7D467;
+}
+
