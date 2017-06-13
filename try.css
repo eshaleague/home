@@ -53,6 +53,7 @@ h1{
 	background-position: center center;
 	
 	
+	
 }
 
 
@@ -61,6 +62,7 @@ h1{
 	background-image: url('./images/league.png');
 	background-size: cover;
 	background-position: center center;
+
 	
 	
 }
@@ -107,5 +109,43 @@ h1{
 
 span{
 	color: #E7D467;
+}
+
+#teamOne{
+	height: 300px;
+	width: 300px;
+	background-image:url("./images/wci.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+}
+
+#teamTwo{
+	height: 300px;
+	width: 300px;
+	background-image:url("./images/sjam.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px){
+	.thin{
+		content: url("./images/timelineThin.png");
+	}
+	#teamOne{
+		margin-top: 20px;
+	
+}
+
+	#teamTwo{
+		margin-top:20px;
+		margin-bottom:20px;
+	
+}
+
+	#main{
+		height: 800px;
+	}
 }
 
