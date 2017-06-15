@@ -129,6 +129,22 @@ span{
 	margin-top: 100px;
 }
 
+.navbar-nav li a, .navbar-nav li.active a {
+	background-color: #0A1028;
+	font-size:17px;
+	transition: background-color 0.2s ease-in;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: white !important;
+    background-color: #E7D467 !important;
+	transition: background-color 0s ease-in;
+}
+
 @media only screen and (max-width: 600px){
 	.thin{
 		content: url("./images/timelineThin.png");
