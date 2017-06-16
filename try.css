@@ -142,7 +142,7 @@ span{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: white !important;
+    color: #0A1028  !important;
     background-color: #E7D467 !important;
 	transition: background-color 0s ease-in;
 }

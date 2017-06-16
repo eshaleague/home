@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse" style="border-radius: 0;">
+<nav class="navbar navbar-inverse" style="border-radius: 0;" id="top">
   <div class="container-fluid">
     <div class="navbar-header">
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -161,7 +161,7 @@ var x = setInterval(function() {
 	</div>
 	
 	<footer class="container-fluid text-center" style="background-color: black;">
-  <a href="#main" title="To Top">
+  <a href="#top" title="To Top">
     <span class="glyphicon glyphicon-chevron-up" style="color: white;"></span>
   </a>
   <p style="color: white;">More Information Coming Soon</p> 
@@ -194,6 +194,33 @@ var x = setInterval(function() {
     }
   }
 </style>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $("footer a[href='#top']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
 <script>
 	$(window).scroll(function() {
     $(".slideanim").each(function(){
