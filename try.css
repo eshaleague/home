@@ -159,11 +159,65 @@ span{
 	#teamTwo{
 		margin-top:20px;
 		margin-bottom:20px;
-	
+	file:///C:/Users/Bryan/Desktop/TriWeb/home/images/aboutProfile.svg
 }
 
 	#main{
 		height: 800px;
 	}
 }
+
+.profile{
+	width: 150px;
+}
+
+.aboutRow{
+	width: 450px; 
+	height:170px; 
+	margin: auto;
+	margin-top: 50px;
+	
+}
+.aboutFirst{
+	width: 150px; 
+	height: 100%;
+	float: left;
+	padding-left: 0px;
+	
+}
+.aboutSecond{
+	height: 100%; 
+	width: 300px; 
+	display:inline-block;
+	padding-top:18px;
+	padding-left: 15px;
+}
+.aboutNames{
+	font-size: 40px;
+}
+
+@media only screen and (max-width: 480px){
+	.profile{
+		width: 80px;
+	}
+	.aboutRow{
+	width: 350px; 
+	height:130px; 
+	margin: auto;
+}
+	.aboutFirst{
+	width: 100px; 
+	padding-left: 15px;
+}
+.aboutSecond{
+	width: 250px; 
+	padding-top:0px;
+}
+.aboutNames{
+	font-size: 30px;
+}
+
+ 
+ 
+ }
 
