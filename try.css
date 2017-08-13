@@ -54,6 +54,8 @@ h1{
 
 #main{
 	height: auto;
+	width: 100%;
+	overflow: hidden;
 
 }
 
