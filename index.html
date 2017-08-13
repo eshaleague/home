@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse" style="border-radius: 0;" id="top">
+	<nav class="navbar navbar-inverse" style="border-radius: 0;" id="top">
   <div class="container-fluid">
     <div class="navbar-header">
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./index.html">Home</a></li>
-        <li><a href="./html/about.html">About us</a></li>
+        <li><a href="./html/about.html">About</a></li>
       </ul>
     </div>
   </div>
@@ -38,14 +38,22 @@
 	
   <source src="./images/black.mp4" type="video/mp4">
 </video>
-
-	<img class="img-responsive" src="./images/Logo.svg" alt="logo" width="360" style="margin:auto; margin-top: 60px">
-	<h1 style="text-align: center; color: white; text-transform: uppercase; font-weight: b; text-shadow: 2px 2px 2px #000000;">Your Premier High school <br>Esports League</h1>
+	<img class="img-responsive" src="./images/Logo.svg" alt="logo" width="360" style="margin:auto; margin-top: 40px;">
+	<div class="games">
+	
+	<img class="img-responsive" src="./images/lol.svg" alt="logo" width="140" style="margin:auto; margin-top: 10px; display: inline-block;margin-right: 50px;">
+	<img class="img-responsive" src="./images/csgo.svg" alt="logo" width="140" style="margin:auto; margin-top: 10px; display: inline-block;margin-right: 50px;">
+	<img class="img-responsive" src="./images/clash.svg" alt="logo" width="140" style="margin:auto; margin-top: 10px; display: inline-block;">
+	</div>
+	<h1 style="text-align: center; color: white; text-transform: uppercase;text-shadow: 2px 2px 2px #000000;margin-top: 0px;">Your Premier High school <br>Esports League</h1>
 <h1 style="text-align: center; color: white; text-transform: uppercase; font-size: 20px; font-weight: b; text-shadow: 2px 2px 2px #000000;">Teams Assemble:</h1>	
-	<p id="demo" style="color: white; text-align:center; font-size: 40px; margin-top: 10px; text-shadow: 2px 2px 2px #000000;"></p>
+	<p id="demo" style="color: white; text-align:center; font-size: 40px; margin-top: 10px; text-shadow: 2px 2px 2px #000000;margin-bottom: 50px;"></p>
 	</div>
 	<!-- Display the countdown timer in an element -->
 	<script>
+	$(document).ready(function(){
+  
+
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 6, 2017 00:00:00").getTime();
 
@@ -74,76 +82,87 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+});
 </script>
 
+		<div class="container-fluid whiteBackground" style=" background-color: white;">
+		<div style="padding-top: 30px; overflow-x: auto; overflow-y: hidden;">
+		<div class="timelineRing"></div>
+		
 
+		<img src="./images/timelineNew.svg" alt="timeline" class="timelineNew">
+		</div>
+		
+		<h1 style="text-align: center">TEAMS ASSEMBLE</h1>
+	
 
-	<div class="container-fluid"id="welcome" >
-		<div class="row" >
+<table style="margin-bottom: 70px;">
+	<thead>
+		<th>School</th>
+		<th>Captain</th>
+	</thead>
+	<tbody>
+		<tr>
+		<td>Waterloo Collegiate Institute</td>
+		<td>Bryan Lin</td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td><br></td>
+		<td></td>
+		</tr>
+	</tbody>
+	
+</table>
+
+<p style="text-align: center; margin-top: -75px;margin-bottom: 50px;"><br>*Read below to learn how to register your high school. <br>**If you see your school, you are already set!</p>
+
+</div>
+
+ 
+ <div class="container-fluid darkOne">
+		<div class="row">
 			<div class="col-sm-2">
 				</div>
-				<div class="col-sm-4 ">
-					<div id="welcomeSpace">
-					<h1>WELCOME TO THE LEAGUE</h1><br>
-					<p class="slideanim">The Tri-City Open is on a mission to provide a 
-					professional and competitive environment for 
-					video game enthusiasts enrolled in high school.<br><br>
-
-					The millions of League of Legends, Counter-Strike: 
-					Global Offensive, Clash Royale and Dota 2 players deserve an 
-					esports program dedicated to highlighting the best 
-					of individuals and team play. This tournament 
-					invites <span>everyone</span> to compete and represent their 
-					schools. In the end, only one school will remain
-					victorious</p>
-					</div>
-				</div>
-				
-
-				<div class="col-sm-6">
-					<div id="medals"></div>
-				</div>
-
-				</div>
-	</div>
-	
-	<div class="container-fluid " id="timeline">
-		<div class="row" >
-				<div class="col-sm-2">
-				</div>
 				<div class="col-sm-4">
-					<div>
-					<h1 style="color: white; margin:10% 0% 10% 0%;" class="slideanim">YOUR JOURNEY BEGINS</h1>
-					</div>
-				</div>	
-		</div>
-		<div class="row" >
-			<div class="col-sm-12 slideanim" >
-			<img class="img-responsive thin"  src="./images/timeline.png" alt="timeline" width="75%" style="margin:auto; margin-bottom:110px;">
-
-			</div>
-		</div>
-	</div>
-	
-	
-	<div class="container-fluid"id="how" >
-		<div class="row " >
-			<div class="col-sm-2">
-				</div>
-				<div class="col-sm-4">
-					<div id="welcomeSpace" class="slideanim" >
-					<h1>THE GAMES BEGIN</h1><br>
-					<p class="slideanim">Unlike ordinary esports leagues, the Tri City Open 
-						invites <span>everyone</span> to participate. Schools will be
-						represented by multiple teams and each team 
-						will have an opportunity to earn points towards 
-						their school.<br><br>
-
-										An established points system will reward points 
-					based on match results, as well as crowd pleasing 
-					moments throughout the games. The school with
-					 the most points at the end of the season will 
-					be crowned the Tri-City Open Champions.</p>
+					<div id="welcomeSpace" >
+					<h1 style="color: white;">YOUR SCHOOL NEEDS <span style="color: #E7D467;border-width: 0px 0px 2px 0px; border-style: solid; border-color: #E7D467;">YOU</span></h1><br>
+					<p  style="color: white;" class="slideanim" style="text-align: justify">If you do not see your school above that means a
+ member of your school has not registered as <span>captain</span>. High school teams are individually run by school captains. Captains have three main responsibilities: 
+ recruit team members, manage meetings, and to register their team. All schools must be represented by a team captain to participate in the league. Being captain is
+easy and will ensure your school's participating in the league.  
+ Please review the startup package and register as a captain below. </p>
 					</div>
 				</div>
 				
@@ -155,82 +174,41 @@ var x = setInterval(function() {
 					<div id="teamTwo"></div>
 				</div>
 
+		</div>
+	</div>
+
+ <div class="container-fluid" >
+		<div class="row" >
+			<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4 ">
+					<div id="welcomeSpace">
+					<h1>THE STARTUP PACKAGE</h1><br>
+					<p style="text-align: justify">The goal of the startup package is to establish a weekly
+					 meeting location for captains and their teams. During this time crucial tasks will be completed before teams can officially register for the tournament. The package
+					is located on Google Drive and includes forms, posters, slideshows, and an easy to follow guide. Packages will be distributed to captains when the "Teams Assemble" period
+					begins. The Tri-City Open leadership team will do their best to make sure this process is as smooth as possible by being active on social media and checking in with captains on 
+					a weekly basis.</p>
+					</div>
+				</div>
+				
+
+				<div class="col-sm-6">
+					<div id="folder" style="margin-top: 20px;"></div>
+				</div>
+
 				</div>
 	</div>
 	
-	<footer class="container-fluid text-center" style="background-color: black;">
-  <a href="#top" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up" style="color: white;"></span>
-  </a>
-  <p style="color: white;">More Information Coming Soon</p> 
-</footer>
-<style>
-	.slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1.2s;
-      -webkit-animation-duration: 1.2s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-    } 
-    100% {
-      opacity: 1;
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-</style>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $("footer a[href='#top']").on('click', function(event) {
-
-   // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
-<script>
-	$(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-</script>
+	 <div class="container-fluid" id="ready"style="background-color: #0A1028; padding-bottom: 20px;">
+		
+		
+		<h1 style="text-shadow: 2px 2px 2px #000000;text-align: center;color: white;margin-bottom: 70px;line-height: 70px;"><br>THE LEAGUE IS READY.<br> ARE YOU?</h1>
+		<a href="https://goo.gl/forms/vwgnUgHkoYFfIQdw2" class="hiddenAnchor"><div class="registerButton">REGISTER</div></a>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfvV8hSnA3YmRjXMUY6cttiLIcHKsOCWhwJjOF-RY0FWfEvVQ/viewform?embedded=true" class="frame"width="500" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	</div>
 	
+	
+
 </body>
 </html>

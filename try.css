@@ -15,6 +15,37 @@ p{
 
 }
 
+th{
+	font-size: 20px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	font-weight: normal;
+	
+}
+td{
+	color: #0A1028;
+	
+}
+
+tbody td{
+	background-color: white;
+	border: solid #0A1028 1px;
+	font-size: 20px;
+	color: #0A1028;
+}
+table{
+	width: 70vw;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	
+
+}
+thead{
+	border: solid #0A1028 1px;
+	background-color: #0A1028;
+}
 h1{
 	font-size: 40px;
 	font-weight: lighter;
@@ -22,11 +53,8 @@ h1{
 }
 
 #main{
-	/*background-image: url("https://media.giphy.com/media/NYMcjHuoyC2kM/giphy.gif");*/
-	height: 750px;
-	background-size: cover;
-	display: block;
-	background-attachment:fixed;
+	height: auto;
+
 }
 
 #filter{
@@ -78,6 +106,14 @@ h1{
 	background-repeat:no-repeat;
 	
 }
+#folder{
+	background-image: url('./images/folder.png');
+	height: 500px;
+	width: 100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+}
 
 #teams{
 	background-image: url('./images/teams.png');
@@ -97,7 +133,7 @@ h1{
 }
 
 #video-background{
-	 position: fixed;
+position: absolute;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -108,7 +144,7 @@ h1{
 }
 
 span{
-	color: #E7D467;
+	
 }
 
 #teamOne{
@@ -227,4 +263,150 @@ span{
  
  
  }
+ 
+ 
+ .timelineRing{
+
+	width: 320px;
+	height: 320px;
+	background-size: contain;
+	margin: auto;
+	right: 130px ;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url('./images/timelineRing.svg');
+	z-index: 0;
+	animation-name: rotate;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+			}
+.timelineNew{
+	width: 1000px;
+	margin:auto;
+	display: block;
+	margin-top: -308px;
+	margin-bottom: 20px;
+
+	position: relative;
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+	.timelineNew{
+		width: 500px;
+		margin:auto;
+		display: block;
+		margin-top: -154px;
+		margin-bottom: 20px;
+		
+	}	
+	.timelineRing{
+				width: 160px;
+				height: 160px;
+				background-size: contain;
+				margin: auto;
+				right: 64px ;
+				
+
+			}
+}
+
+@media only screen and (max-width: 550px) {
+	.timelineRing{
+				left: 105px ;
+				margin: 0;
+
+
+			}
+}
+
+@keyframes rotate{
+    0%   { transform: rotate(0deg);}
+	14%   {transform:  rotate(60deg);}
+	16%   {transform:  rotate(60deg);}	
+	30%   {transform:  rotate(120deg);}	
+	32%   {transform:  rotate(120deg);}	
+	46%   {transform:  rotate(180deg);}	
+	48%   {transform:  rotate(180deg);}
+	62%   {transform:  rotate(240deg);}	
+	64%   {transform:  rotate(240deg);}
+	78%   {transform:  rotate(300deg);}	
+	82%   {transform:  rotate(300deg);}
+	96%   {transform:  rotate(360deg);}	
+	100%   {transform:  rotate(360deg);}	
+}
+
+.whiteBackground{
+	background-image: url("./images/whiteBackground.png");
+	background-size: cover;
+	background-position: center center;
+}
+.registerButton{
+	height: 60px;
+	width: 180px;
+	background-color: #E7D467;
+	margin: auto;
+	color: #0A1028;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 13px;
+	transition: background-color 0.1s ease-in;
+	display: none;
+	margin-top: -50px;
+	margin-bottom: 70px;
+}
+
+.registerButton:hover{
+	background-color: #E5E567;
+	transition: background-color 0s ease-in;
+}
+
+.frame{
+	display:block; 
+	width: 500px; 
+	margin: auto;
+}
+.games{
+	width: 533px;
+	margin: auto;
+	overflow-x: auto; 
+	overflow-y: hidden;
+}
+.hiddenAnchor{
+	display: none;
+}
+.darkOne{
+	background-image: url("./images/dark.png");
+	background-size: cover;
+	background-position: center center;
+}
+@media only screen and (max-width: 550px) {
+	.frame{
+		display: none;		
+
+
+	}
+	.registerButton{
+		display: block;
+	}
+	.games{
+		display: none;	
+	}
+	.hiddenAnchor{
+	display: block;
+}
+}
+
+#ready{
+	background-image: url("./images/ready.png");
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+
 
