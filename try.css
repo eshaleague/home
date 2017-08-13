@@ -120,6 +120,7 @@ h1{
 	width: 100%;
 	background-size:contain;
 	background-repeat:no-repeat;
+	margin-top: 7vw;
 	
 }
 
@@ -127,7 +128,7 @@ h1{
 	background-image: url('./images/teams.png');
 	height: 550px;
 	width: 100%;
-	background-size:contain;
+	background-size:100%;
 	background-repeat:no-repeat;
 	
 }
@@ -177,6 +178,7 @@ span{
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 #teamTwo{
@@ -427,9 +429,16 @@ span{
 		background-image: url("./images/backgroundStill.png");
 		background-size: cover;
 		background-position: top;
-		height: 720px;
+		height: 820px;
 		background-color: grey;
 	}
+	.gameWords p{
+	line-height: 20px;
+	}
+	.gameWords{
+	display: block;
+	}
+
 }
 
 #ready{
@@ -437,6 +446,16 @@ span{
 	background-size: contain;
 	background-position: top;
 	background-repeat: no-repeat;
+}
+.gameWords p{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	
+	
+}
+.gameWords{
+	display: none;
 }
 
 
