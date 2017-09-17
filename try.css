@@ -457,6 +457,23 @@ span{
 .gameWords{
 	display: none;
 }
+.newsHover:hover{
+	color: #D2D7D3;
+	text-decoration: none;
+	transition: color ease 0s;
+}
+.newsHover{
+	color: #0a1028;
+	transition: color ease 0.3s;
+}
+#captainDates td{
+	padding: 5px;
+}
+
+.activeCaptain{
+	color: white;
+	background-color: #0A1028;
+}
 
 
 
