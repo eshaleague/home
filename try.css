@@ -120,7 +120,6 @@ h1{
 	width: 100%;
 	background-size:contain;
 	background-repeat:no-repeat;
-	margin-top: 7vw;
 	
 }
 
@@ -197,6 +196,8 @@ span{
 }
 .navbar {
 	background-color: #0A1028;
+	height: 53px;
+
 }
 .navbar-nav li a, .navbar-nav li.active a {
 	background-color: #0A1028;
@@ -257,6 +258,7 @@ span{
 
 	#main{
 		height: 800px;
+		
 	}
 }
 
@@ -384,7 +386,7 @@ span{
 }
 
 .registerButton:hover{
-	background-color: #E5E567;
+	background-color: white;
 	transition: background-color 0s ease-in;
 }
 
@@ -429,7 +431,7 @@ span{
 		background-image: url("./images/backgroundStill.png");
 		background-size: cover;
 		background-position: top;
-		height: 820px;
+		height: 900px;
 		background-color: grey;
 	}
 	.gameWords p{
@@ -479,5 +481,25 @@ span{
 	padding: 3px;
 }
 
+li{
+	margin-bottom: 15px;
+}
+.registerButton{
+	width: 200px;
+	display: block;
+	margin: auto;
+	
+}
+
+#frontRegister{
+	font-size: 25px;
+	padding-top: 10px;
+	background-color: #fbdb2c;
+
+}
+#frontRegister:hover{
+
+	background-color: white;
+}
 
 
