@@ -256,10 +256,7 @@ span{
 		display: none;
 }
 
-	#main{
-		height: 800px;
-		
-	}
+	
 }
 
 
@@ -431,7 +428,6 @@ span{
 		background-image: url("./images/backgroundStill.png");
 		background-size: cover;
 		background-position: top;
-		min-height: 1200px;
 		background-color: grey;
 	}
 	.gameWords p{
