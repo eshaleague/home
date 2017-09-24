@@ -196,7 +196,7 @@ span{
 }
 .navbar {
 	background-color: #0A1028;
-	height: 53px;
+	
 
 }
 .navbar-nav li a, .navbar-nav li.active a {
@@ -477,7 +477,7 @@ span{
 	padding: 3px;
 }
 
-li{
+#welcomeSpace li{
 	margin-bottom: 15px;
 }
 .registerButton{
