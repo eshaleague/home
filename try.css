@@ -389,7 +389,7 @@ span{
 
 .frame{
 	display:block; 
-	width: 500px; 
+	width: 60vw; 
 	margin: auto;
 }
 .games{
@@ -403,6 +403,11 @@ span{
 }
 .darkOne{
 	background-image: url("./images/dark.png");
+	background-size: cover;
+	background-position: center center;
+}
+.darkClass{
+	background-image: url("./images/Room.png");
 	background-size: cover;
 	background-position: center center;
 }
@@ -498,4 +503,20 @@ span{
 	background-color: white;
 }
 
+#eshaLogo{
+	background-image: url('./images/darkTall.png');
+	height: 550px;
+	width: 100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+#captainsLogo{
+	background-image: url('./images/captains.png');
+	height: 400px;
+	width: 100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: left center;
+}
 
