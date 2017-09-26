@@ -59,7 +59,7 @@ h1{
 	display: block;
 	position: relative;
 	top: -20px;
-	/*background-image: url("./images/backgroundStill.png");
+	/*background-image: url("./images/backgroundStill.jpg");
 	background-size: cover;
 	background-position: top;
 */
@@ -84,7 +84,7 @@ h1{
 
 #welcome{
 	overflow:auto;
-	background-image: url('./images/dota.png');
+	background-image: url('./images/dota.jpg');
 	background-size: cover;
 	background-position: center center;
 	
@@ -95,7 +95,7 @@ h1{
 
 #how{
 	overflow:auto;
-	background-image: url('./images/league.png');
+	background-image: url('./images/league.jpg');
 	background-size: cover;
 	background-position: center center;
 
@@ -190,7 +190,7 @@ span{
 }
 
 #crowd{
-	background-image:url("./images/crowd.png");
+	background-image:url("./images/crowd.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -402,7 +402,7 @@ span{
 	display: none;
 }
 .darkOne{
-	background-image: url("./images/dark.png");
+	background-image: url("./images/dark.jpg");
 	background-size: cover;
 	background-position: center center;
 }
@@ -445,7 +445,7 @@ span{
 }
 
 #ready{
-	background-image: url("./images/ready.png");
+	background-image: url("./images/ready.jpg");
 	background-size: contain;
 	background-position: top;
 	background-repeat: no-repeat;
