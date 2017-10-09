@@ -27,11 +27,17 @@ td{
 color: #0A1028;
 padding: 10px;
 
+
 }
 
 td:nth-child(even){
 padding-left: 30px;
 
+}
+
+td:nth-child(odd){
+position: relative;
+padding-top: ;
 }
 
 tbody td{
