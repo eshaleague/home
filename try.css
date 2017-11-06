@@ -2,8 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: sans-serif;
-font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+font-family: 'Lato', sans-serif;
 }
 
 
@@ -305,7 +304,7 @@ width: 320px;
 height: 320px;
 background-size: contain;
 margin: auto;
-right: 130px ;
+right: -143px ;
 position: relative;
 background-repeat: no-repeat;
 background-image: url('./images/timelineRing.svg');
@@ -342,7 +341,7 @@ width: 160px;
 height: 160px;
 background-size: contain;
 margin: auto;
-right: 64px ;
+right: -72px ;
 
 
 }
@@ -350,7 +349,7 @@ right: 64px ;
 
 @media only screen and (max-width: 550px) {
 .timelineRing{
-left: 105px ;
+left: 241px ;
 margin: 0;
 
 
@@ -514,7 +513,7 @@ text-decoration: none;
 }
 #frontRegister:hover{
 text-decoration: none;
-background-color: #1d2544;
+background-color: #34495e;
 }
 #frontRegister a:hover{
 text-decoration: none;
