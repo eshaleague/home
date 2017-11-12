@@ -9,27 +9,23 @@
 .rostersHead{
 
 	background-image: url(./images/rosters.jpg);
-	background-color: blue;
 	background-size: cover;
 }
 
 .rostersHeadLeague{
 
 	background-image: url(./images/leagueChamp.jpg);
-	background-color: blue;
 	background-size: cover;
 }
 
 .rostersHeadCSGO{
 
 	background-image: url(./images/csgoChamp.jpg);
-	background-color: blue;
 	background-size: cover;
 }
 .rostersHeadClash{
 
 	background-image: url(./images/clashChamp.jpg);
-	background-color: blue;
 	background-size: cover;
 }
 #rostersImageHead{
@@ -63,24 +59,29 @@
 	transition: opacity ease 0.3s;
 
 }
-
+#rosterDataCenter{
+	max-width: 600px;
+	margin: auto;
+	
+}
 #wVikingsProfile{
-	background-image: url("./images/rosterProfiles/wVikings.png");
+	background-image: url("./images/rosterProfiles/W VikingsMAIN.png");
 
 }
 #wCrusadorsProfile{
-	background-image: url("./images/rosterProfiles/wCrusadors.png");
+	background-image: url("./images/rosterProfiles/W CrusadersMAIN.png");
 }
-#sHighlandersProfile{
-	background-image: url("./images/rosterProfiles/sHighlanders.png");
-}
+
 
 #rosterCharts h1{
 	font-size: 30px;
+	text-align: center;
+	font-weight: Normal;
 }
 #rosterCharts table{
 	width: auto;
-	margin: 0;
+	min-width: 230px;
+	
 }
 #rosterCharts th{
 	text-align: center;
@@ -88,14 +89,17 @@
 #rosterCharts td{
 	border: none;
 	font-size: 15px;
-	padding: 2px;
+	padding: 6px;
+	font-weight: Normal;
 }
-
+#rosterCharts td a{
+	color: black;
+}
 #rosterCharts tbody tr:nth-child(odd) td{
 	background-color: white;
 }
 #rosterCharts tbody tr:nth-child(even) td{
-	background-color: #ecf0f1;
+	background-color: #E2E2E2;
 }
 
 #rosterCharts tbody td:nth-child(even){
@@ -107,4 +111,51 @@
 	min-width: 130px;
 	overflow: auto;
 }
+
+
+#rosterData h1{
+	font-size: 30px;
+}
+#rosterData table{
+	max-width: 600px;
+	margin: 0;
+}
+#rosterData th{
+	text-align: center;
+}
+#rosterData th{
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 25px;
+}
+#rosterData td{
+	border: none;
+	font-size: 18px;
+	padding:7px 2px 7px 2px;
+	text-align: center;
+}
+
+#rosterData tbody tr:nth-child(odd) td{
+	background-color: white;
+}
+#rosterData tbody tr:nth-child(even) td{
+	background-color:#E2E2E2;
+}
+
+#rosterData tbody td:nth-child(1){
+	text-align: left;
+}
+
+#rosterData:nth-child(1) a{
+	font-size: 20px;
+	margin-bottom: 20px;
+	display: block;
+	color: black;
+}
+
+
+
+
+
+
 
