@@ -72,6 +72,9 @@
 	background-image: url("./images/rosterProfiles/W CrusadersMAIN.png");
 }
 
+#rosterCharts{
+	padding-bottom: 50px;
+}
 
 #rosterCharts h1{
 	font-size: 30px;
