@@ -556,3 +556,39 @@ iframe{
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+.mogSubmit{
+	background-color: #0a1028;
+	color: white;
+	height: 40px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 4px solid white;
+	text-decoration: none !important;
+	transition: border 0.1s ease-in;
+	transition: color 0s ease-in;
+}
+.mogSubmit:hover{
+	border: 4px solid #E9D460;
+	cursor: pointer;
+	color: #E9D460;
+	text-decoration: none !important;
+
+
+}
+.mogSubmit a {
+
+	text-decoration: none !important;
+	color: white;
+
+}
+.mogSubmit a:hover {
+
+	text-decoration: none !important;
+	color: #E9D460;
+
+}
